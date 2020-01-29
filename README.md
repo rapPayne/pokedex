@@ -6,7 +6,7 @@ TBD
 
 ## To run the app
 ```
-n
+npm install 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg5NjQ1NDRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzAyNTkwOTJdfQ==
 -->
