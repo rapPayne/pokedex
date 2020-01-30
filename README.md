@@ -2,7 +2,7 @@
 A React application for getting info about Pokemon
 
 ## To contribute
-TBD 
+[Contributors.md](https://github.com/rappayne/pokedex/Contributors.md)
 
 ## To run the app
 
