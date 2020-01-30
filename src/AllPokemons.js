@@ -23,22 +23,21 @@ export const AllPokemons = props => {
 
             {
               pokemonList
-              .filter(pokemon => pokemon.name.includes(searchString))
-              .sort((a, b) => a.name > b.name ? 1 : -1)
-              .map(pokemon =>
-                <li onClick={() => fetchPokemon(pokemon.name)} key={pokemon.name} className="mdl-list__item">
-                  <span className="mdl-list__item-primary-content">
-                    {pokemon.name}
-                  </span>
-                </li>
-              )
+                .filter(pokemon => pokemon.name.includes(searchString))
+                .sort((a, b) => a.name > b.name ? 1 : -1)
+                .map(pokemon =>
+                  <li onClick={() => fetchPokemon(pokemon.name)} key={pokemon.name} className="mdl-list__item">
+                    <span className="mdl-list__item-primary-content">
+                      {pokemon.name}
+                    </span>
+                  </li>
+                )
             }
 
           </ul>
         </section>
-        {pokemon ? 
-        <Pokemon pokemon={pokemon} /> :
-        null}
+        {pokemon ?
+          <Pokemon pokemon={pokemon} /> : null}
       </div>
     </div>
   )
