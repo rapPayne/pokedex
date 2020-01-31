@@ -9,7 +9,7 @@ export const SearchPage = (props) => {
   return (
     <div style={styles.wrapper}>
       <Search fetchPokemon={fetchPokemon} />
-      <Pokemon pokemon={pokemon} />
+      {pokemon.name ? <Pokemon pokemon={pokemon} /> : null}
     </div>
   )
 

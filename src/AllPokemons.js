@@ -14,8 +14,8 @@ export const AllPokemons = props => {
     <div>
       <h1>All Pokemons</h1>
       <div className="mdl-textfield mdl-js-textfield">
-        <input type="search" onChange={e => setSearchString(e.target.value)} className="mdl-textfield__input" id="searchString" autoComplete="off" />
-        <label className="mdl-textfield__label" htmlFor="searchString">Pokemon name</label>
+        <input type="search" onChange={e => setSearchString(e.target.value)} placeholder="Pokemon name" className="mdl-textfield__input" id="searchString" autoComplete="off" />
+        <label className="mdl-textfield__label" htmlFor="searchString"></label>
       </div>
       <div style={styles.listAndDetail} className="listAndDetail">
         <section className="mdl-card mdl-shadow--8dp pokeList" style={styles.pokeList}>
