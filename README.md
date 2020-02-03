@@ -11,6 +11,5 @@ A React application for getting info about Pokemon
     npm start
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDk5MDg1NSwtNDI2NzU1Mzc2XX0=
+eyJoaXN0b3J5IjpbMTU1NjA2NjE1LC00MjY3NTUzNzZdfQ==
 -->
-
